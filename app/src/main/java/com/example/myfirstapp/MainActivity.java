@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         RelativeLayout rel = new RelativeLayout(this);
 
-        // Button
+        // Button erzeugen
         Button button = new Button(this);
         button.setText("Click me");
         RelativeLayout.LayoutParams buttonDetails = new RelativeLayout.LayoutParams(
